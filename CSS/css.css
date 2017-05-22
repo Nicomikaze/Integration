@@ -1,15 +1,13 @@
-@media only screen and (min-width: 375px)and (max-width:420px){
   body{
     background-color: #323D4E;
     
   }
-  *{
-    padding: 0;
-    margin: 0;
-  }
-.Footer{
+
+@media only screen and (min-width: 360px)and (max-width:375px){
+  
+   .Footer{
   position: relative;
-  top:620px;
+  top:588px;
   background-color: #E0E2E5;
   display:inline-block;
   width: 100%;
@@ -19,7 +17,8 @@
   
 }
 
-.ProductPlaceButton{width: 10%;
+.ProductPlaceButton{
+  width: 10%;
   float: left;
   padding-top: 9px;
   text-align: center;
@@ -42,7 +41,63 @@
   float: left;
   text-align: center;
   margin: 0;
-  padding-left: 6%
+  padding-left: 7%;
+}
+.button{
+  padding-top: 6px;
+  padding-left:10%;
+  padding-right:10%;
+  width: 8%;
+  float: left;
+  text-align: center;
+  margin: 0;
+}  
+}
+
+@media only screen and (min-width: 375px)and (max-width:420px){
+  
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+.Footer{
+  position: relative;
+  top:621px;
+  background-color: #E0E2E5;
+  display:inline-block;
+  width: 100%;
+  text-align: center;
+  padding-right: 0;
+  margin-right: 0;
+  
+}
+
+.ProductPlaceButton{
+  width: 10%;
+  float: left;
+  padding-top: 9px;
+  text-align: center;
+  margin: 0;
+  
+}
+
+.IconProfilButton{
+  padding-top: 4px;
+  width: 10%;
+  float: left;
+  text-align: center;
+  margin: 0;
+}
+
+
+.HomeButton{
+  width: 10%;
+  padding-top: 7px;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding-left: 7%
 }
 .button{
   padding-top: 6px;
@@ -54,22 +109,60 @@
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+@media only screen and (min-width: 414px)and (max-width:420px){
+  
+  
+  .Footer{
+  position: relative;
+  top:685px;
+  background-color: #E0E2E5;
+  display:inline-block;
+  width: 100%;
+  text-align: center;
+  padding-right: 0;
+  margin-right: 0;
+  
+}
+
+.ProductPlaceButton{
+  width: 10%;
+  float: left;
+  padding-top: 9px;
+  text-align: center;
+  margin: 0;
+  
+}
+
+.IconProfilButton{
+  padding-top: 4px;
+  width: 10%;
+  float: left;
+  text-align: center;
+  margin: 0;
+}
+
+
+.HomeButton{
+  width: 10%;
+  padding-top: 7px;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding-left: 7%
+}
+.button{
+  padding-top: 6px;
+  padding-left:10%;
+  padding-right:10%;
+  width: 8%;
+  float: left;
+  text-align: center;
+  margin: 0;
+}  
+}
+
+
+  
+  
