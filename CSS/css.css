@@ -8,7 +8,7 @@
     margin: 0;
   }
 .Footer{
-  position: relative;
+  position:fixed;
   top:620px;
   background-color: #E0E2E5;
   display:inline-block;
@@ -54,22 +54,90 @@
   margin: 0;
 }
 
+ 
+  .voeding{
+    width: 100%;
+    
+  }
 
 
 
+ .workshop{
+    width: 100%;
+  }
 
+.event{
+    width: 100%;
+  }
+  
+  .titel{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    text-decoration: none;
+   
+  }
+  
+.titel2{
+  position: relative;
+    top: -80px;
+    color: white;
+  text-align: center;
+  text-decoration: none;
+  
+    
+  
+  }
 
+.titel3{
+  position: relative;
+    top: -80px;
+  text-align: center;
+  text-decoration: none;
+  
+  color: white;
+  
+   
+  
+  }
+  
+  
+  .Voedingbutton{
+      background-image: url(../Fotos&Icons/Voeding%202%20copy.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding-top: 170px;
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding-top: 170px;
+    
+  }
+  
+  .Workshopbutton{
+    background-image: url(../Fotos&Icons/Workshop.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding-top: 170px;
+    
+  }
+  
+  .Eventbutton{
+background-image: url(../Fotos&Icons/Event.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  padding-top: 170px;}
 
-
-
-
-
-
-
-
-
-
-
-
+ 
+  
+  
+  hr{
+    position: relative;
+    top: -2px;
+    border:none;
+    height: 3px;
+    background-color: white;
+    padding: 0;
+    margin:0;
 
 }
