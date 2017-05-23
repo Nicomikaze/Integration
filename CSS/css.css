@@ -1,9 +1,12 @@
- body{
+
+
+body{
     background-color: #323D4E;
     
   }
 
   *{
+    
     padding: 0;
     margin: 0;
   }
@@ -14,6 +17,9 @@
 
 @media only screen and (min-width: 360px)and (max-width:375px){
   
+  
+  
+
    .Footer{
   position: fixed;
   top:588px;
@@ -117,6 +123,7 @@
   }
   
   .titel{
+    font-family:Franklin Gothic Book ;
     color: white;
     text-align: center;
     position: relative;
@@ -126,6 +133,7 @@
   }
   
 .titel2{
+  font-family:Franklin Gothic Book ;
   position: relative;
     top: -80px;
     color: white;
@@ -138,6 +146,7 @@
 
 
 .titel3{
+  font-family:Franklin Gothic Book ;
   position: relative;
     top: -80px;
   text-align: center;
@@ -155,9 +164,7 @@
    background-repeat: no-repeat;
    background-size: cover;
     padding-top: 170px;
-   background-repeat: no-repeat;
-   background-size: cover;
-    padding-top: 170px;
+  
     
   }
   
@@ -206,6 +213,148 @@ background-image: url(../Fotos&Icons/Event.jpg);
   text-align: center;
   margin: 0;
 }
+  #lijn2{
+    position: relative;
+    top: -2px;
+    border:none;
+    height: 3px;
+    background-color: black;
+    padding: 0;
+    margin:0;
+    
+  }
+  .kop{
+    padding-right: 24%;
+    margin-left: 2%;
+  }
+
+  .NaamBedrijf{
+    font-size:30px;
+  color: white;
+  font-family:Franklin Gothic Book ;
+  
+  
+  }
+  
+  
+  
+  
+  .ProductInfo{
+    background-image: url(../Fotos&Icons/Kaas.png);
+    background-repeat: no-repeat;
+   background-size:cover;
+    padding-top: 180px;
+    background-size: 460px;
+    margin-left: 2%;
+    margin-right:2%;
+    margin-top: 20px;
+  }
+  
+  
+  .main{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    height: 3px;
+    padding-left: 80%
+    
+  }
+  
+  .PrBs{
+    color: white;
+    font-size: 20px;
+  position: relative;
+  top: 60px;
+  font-family:Franklin Gothic Book ;}
+  
+  
+  .txtBeschrijving{
+    background-color: #4C5564;
+    position: relative;
+    top: 60px;
+    border-radius: 10px; 
+    padding-top: 30px;
+    margin-left: 2%;
+    margin-right:2%;
+  }
+  
+  .beschrijving{
+    color: white;
+    position: relative;
+    margin-left: 2%;
+    margin-right:2%;
+   top: -16px;
+    font-family:Franklin Gothic Book ;
+    line-height: 160%;
+    
+  }
+  
+  .Promotie{  background-color: #FA5B63;
+    position: relative;
+    top: 80px;
+    border-radius: 10px; 
+    padding-top: 30px;
+    margin-left: 2%;
+    margin-right:2%;
+    
+    
+  }
+  .PromotieTiltel{
+    font-family:Franklin Gothic;
+    font-weight:lighter;
+    margin-left: 2%;
+    position: relative;
+    top: -22px;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  
+  
+  .rate{
+  margin-left: 2%;
+    margin-right:2%;
+    position: relative;
+    top: 100px;
+    
+    text-align: center
+  }
+  
+  
+  .ster1{
+    display: inline-block;
+  width: 17%;
+   }
+  
+  .ster2{
+    display: inline-block;
+  width: 17%;
+   }
+  
+  .ster3{
+    display: inline-block;
+  width: 17%;
+   }
+  
+  .ster4{
+    display: inline-block;
+  width: 17%;
+   }
+  
+  .ster5{
+    display: inline-block;
+  width: 17%;
+   }
+ 
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -213,7 +362,7 @@ background-image: url(../Fotos&Icons/Event.jpg);
   
   
   .Footer{
-  position: fi;
+  position:fixed;
   top:685px;
   background-color: #E0E2E5;
   display:inline-block;
