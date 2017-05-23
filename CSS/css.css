@@ -1,9 +1,12 @@
- body{
+
+
+body{
     background-color: #323D4E;
     
   }
 
   *{
+    
     padding: 0;
     margin: 0;
   }
@@ -14,6 +17,9 @@
 
 @media only screen and (min-width: 360px)and (max-width:375px){
   
+  
+  
+
    .Footer{
   position: fixed;
   top:588px;
@@ -117,6 +123,7 @@
   }
   
   .titel{
+    font-family:Franklin Gothic Book ;
     color: white;
     text-align: center;
     position: relative;
@@ -126,6 +133,7 @@
   }
   
 .titel2{
+  font-family:Franklin Gothic Book ;
   position: relative;
     top: -80px;
     color: white;
@@ -138,6 +146,7 @@
 
 
 .titel3{
+  font-family:Franklin Gothic Book ;
   position: relative;
     top: -80px;
   text-align: center;
