@@ -7,7 +7,7 @@ $(document).ready(function () {
     });
     
   
-  
+  //_______________SterenVullen________________________//
   $("#hide2").click(function()
   {
     $("#filledStar1").css("display","block");
@@ -45,7 +45,7 @@ $(document).ready(function () {
   
   
   
-  
+   //_______________SterenLeeg________________________//
   
   
   $("#filledStar1").click(function()
