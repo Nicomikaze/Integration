@@ -315,8 +315,9 @@ background-image: url(../Fotos&Icons/Event.jpg);
   margin-left: 2%;
     margin-right:2%;
     position: relative;
-    top: 100px;
-    
+    top: 120px;
+    width: 75%;
+    left: 9%;
     text-align: center
   }
   
